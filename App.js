@@ -1,20 +1,27 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import SignUpScreen from './component/SignUpScreen/SignUpScreen'; // Import your screens accordingly
+import LoginScreen from './component/LoginScreen/LoginScreen';
+import GuestLoginScreen from './component/GuestLoginScreen/GuestLoginScreen';
+import GiftSelectionScreen from './component/GiftSelectionScreen/GiftSelectionScreen';
+import DashboardScreen from './component/DashboardScreen/DashboardScreen';
 
-export default function App() {
+const Stack = createStackNavigator();
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="SignUp">
+        <Stack.Screen name="SignUp" component={SignUpScreen} />
+        <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="GuestLogin" component={GuestLoginScreen} />
+        <Stack.Screen name="GiftSelection" component={GiftSelectionScreen} />
+        <Stack.Screen name="Dashboard" component={DashboardScreen} />
+        {/* You can add more screens here */}
+      </Stack.Navigator>
+    </NavigationContainer>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
