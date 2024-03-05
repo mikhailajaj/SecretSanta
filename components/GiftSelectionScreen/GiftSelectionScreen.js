@@ -22,12 +22,8 @@ const GiftSelectionScreen = () => {
 
   return (
     <View style={styles.giftSelectionScreen}>
-      <View style={styles.header}>
-        <Text style={styles.headerText}>Kesitter</Text>
-      </View>
       <ScrollView contentContainerStyle={styles.mainContent}>
         <View style={styles.giftSelectionContainer}>
-          <Text style={styles.title}>Gift Selection</Text>
           <Text style={styles.description}>pick something that resonates or simply brings a smile.</Text>
           <View style={styles.giftOptions}>
             {gifts.map((gift) => (
