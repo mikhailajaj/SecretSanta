@@ -16,7 +16,7 @@ const CustomButton = ({ title, onPress, width }) => {
 // Define default styles for the button
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: '#f08a5d',//#ff4500 // The color in the image looks like a coral shade; adjust as needed
+    backgroundColor: '#ff4500',//#ff4500 // The color in the image looks like a coral shade; adjust as needed
     paddingVertical: 8,
     paddingHorizontal: 20,
     borderRadius: 20, // Rounded corners

@@ -1,10 +1,12 @@
 import React from 'react';
-import { View, Text, Image, TouchableOpacity, ScrollView,StyleSheet } from 'react-native';
+import { View, Text, Image, TouchableOpacity, ScrollView,StyleSheet,ImageBackground } from 'react-native';
 import settingsIcon from '../assets/img/settings-icon.png'; // Adjust the path as necessary
 import checkIcon from '../assets/img/check-icon.png'; // Adjust the path as necessary
 import homeIcon from '../assets/img/home-icon.png'; // Adjust the path as necessary
 import giftIcon from '../assets/img/gift-icon.png'; // Adjust the path as necessary
 
+// Require your local image
+const backgroundImage = require('../assets/img/background_dash.png');
 
 const DashboardScreen = () => {
     
@@ -24,6 +26,11 @@ const DashboardScreen = () => {
 
   return (
     <View style={styles.dashboardScreen}>
+       <ImageBackground
+        source={backgroundImage}
+        resizeMode="cover"
+        style={styles.backgroundImage}
+      >
       <View style={styles.header}>
         <Image source={settingsIcon} style={styles.icon} />
         <Text style={styles.headerTitle}>SECRET SANTA</Text>
@@ -56,12 +63,19 @@ const DashboardScreen = () => {
         <Image source={homeIcon} style={styles.icon} />
         <Image source={giftIcon} style={styles.icon} />
       </View>
+      </ImageBackground>
     </View>
   );
 };
 const styles = StyleSheet.create({
   dashboardScreen: {
     flex: 1,
+  },
+  backgroundImage: {
+    width:  '100%',
+    height: '100%',
+    flex: 1,
+
   },
   header: {
     flexDirection: 'row',
