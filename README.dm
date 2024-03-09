@@ -1,29 +1,5 @@
 # Secret Santa App
 
-## Table of Contents
-- [Overview](#overview)
-  - [Purpose](#purpose)
-  - [Problem Solving](#problem-solving)
-  - [Impact](#impact)
-- [Feasibility](#feasibility)
-- [Team Composition](#team-composition)
-- [Stakeholders](#stakeholders)
-- [Real-World Problems & Solutions](#real-world-problems--solutions)
-  - [Participant Engagement](#participant-engagement)
-  - [Event Management](#event-management)
-  - [Gift Selection and Purchase](#gift-selection-and-purchase)
-- [Business Requirements](#business-requirements)
-  - [Participant Engagement Requirements](#participant-engagement-requirements)
-  - [Event Management Requirements](#event-management-requirements)
-  - [Gift Selection and Purchase Requirements](#gift-selection-and-purchase-requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
-## Overview
-
 ### Purpose
 The Secret Santa app seeks to bring the traditional holiday game into the digital age, allowing users to easily organize and participate in gift exchanges.
 
