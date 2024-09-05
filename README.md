@@ -55,10 +55,17 @@ The development and launch of the app are projected to be completed within 2-4 m
 - Integration with retail platforms for in-app purchasing.
 - Budget management tools.
 
-## Installation
+## Demo App Functionality Links
+- **Sign up**: [Sign up video](https://drive.google.com/file/d/1-3AJA8VbU2LluX7dmQqLnV8rkgjrR95q/view?usp=drive_link)
+- **Login**: [Login video](https://drive.google.com/file/d/1XKCX9LmA7w1FDqAIwN1GlElZ1ZR4Z18-/view?usp=drive_link)
+- **Create/Join Groups**: [Create/Join Groups video](https://drive.google.com/file/d/1e26yODKZk9bp86KTM68XHXepyw5qGyd_/view?usp=drive_link)
 
-To install the Secret Santa App:
+## UI/UX Figma File
+- **Figma File**: [Link to the project in Figma](https://www.figma.com/design/19lguzaphej2V9vHL7Mwp6/Secret-Santa?node-id=55-222&t=CKPNt9CnGvmGg1lt-1)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/mikhailajaj/secretsanta.git
+## Project Inception Document (PID)
+- **PID**: [Link to PID](https://drive.google.com/file/d/1f1Wcv_SuX1TYSSC58REWvrkzeipG5Y1T/view?usp=drive_link)
+
+## Project Inception Release
+- **Release Document**: [Link to Release](https://drive.google.com/file/d/1f_XXyGZ2bYPq6uEQeizbepR1TwqNZnHJ/view?usp=sharing)
+
